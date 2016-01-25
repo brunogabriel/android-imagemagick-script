@@ -24,12 +24,13 @@ brew install imagemagick
 ### How to use
 1. Create a single folder with name ```drawable-xxhdpi``` and inside, put your pictures with a extension (in case .PNG, but if you need to use only JPEG, you can change the script file).
 
-2. Run the script: 
+2. Run the script and after it, other folders should will appear: 
 ```bash
 ./script.sh
 ``` 
 
-3. After, other folders will appear.
+### Example
+Inside this repository, I created a named folder `drawable-xxhdpi`, use it to execute this script and test if the resolution of images (xhdpi, hdpi and mdpi)  they're correct.
 
 ### Refences and Credits
 * [ImageMagick] (https://github.com/ImageMagick/ImageMagick)
